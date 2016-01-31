@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>Author</key>
-	<string>Steve Sobel</string>
+	<string>Ariel Jacobs</string>
 	<key>Builder Version</key>
-	<string>9537.85.11.5</string>
+	<string>0.1.0.0</string>
 	<key>CFBundleDisplayName</key>
 	<string>Reddit Enhancement Suite</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.honestbleeps.redditenhancementsuite</string>
+	<string>com.arielj.mitdiscussionenhancementsuite</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
@@ -169,8 +169,8 @@
 		<dict>
 			<key>Allowed Domains</key>
 			<array>
-				<string>reddit.com</string>
-				<string>*.reddit.com</string>
+				<string>discussion.mit.edu</string>
+				<string>*.discussion.mit.edu</string>
 				<string>api.twitter.com</string>
 				<string>api.imgur.com</string>
 				<string>min.us</string>
@@ -191,6 +191,6 @@
 	<key>Update Manifest URL</key>
 	<string>http://redditenhancementsuite.com/update-safari.plist</string>
 	<key>Website</key>
-	<string>http://redditenhancementsuite.com/</string>
+	<string>https://github.com/AMWJ/Reddit-Enhancement-Suite/</string>
 </dict>
 </plist>

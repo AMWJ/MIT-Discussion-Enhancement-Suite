@@ -1,10 +1,10 @@
 {
-	"name": "reddit-enhancement-suite",
-	"title": "Reddit Enhancement Suite",
+	"name": "mit-discussion-enhancement-suite",
+	"title": "MIT Discussion Enhancement Suite",
 	"id": "jid1-xUfzOsOFlzSOXg@jetpack",
-	"description": "A suite of tools to enhance Reddit",
-	"author": "honestbleeps",
-	"homepage": "http://redditenhancementsuite.com/",
+	"description": "A suite of tools to enhance MIT Discussion: A blatant rip-off of RES.",
+	"author": "arielj",
+	"homepage": "https://github.com/AMWJ/Reddit-Enhancement-Suite/",
 	"license": "GPL-3.0",
 	"version": "9000.1",
 	"permissions": {

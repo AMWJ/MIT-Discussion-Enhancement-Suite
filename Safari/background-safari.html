@@ -1,5 +1,9 @@
 <!--
 /*
+	This is an MIT Discussion Enhancement Suite. This is NOT RES, but it owes quite a lot to them. As per the below request, please don't bother the RES developers.
+*/
+
+/*
 
 	RES is released under the GPL. However, I do ask a favor (obviously I don't/can't require it, I ask out of courtesy):
 
@@ -163,7 +167,7 @@
 				// handle requests from keyboardNav module
 				thisLinkURL = request.linkURL;
 				if (thisLinkURL.toLowerCase().substring(0, 4) !== 'http') {
-					thisLinkURL = (thisLinkURL.substring(0, 1) === '/') ? 'http://www.reddit.com' + thisLinkURL : location.href + thisLinkURL;
+				    thisLinkURL = (thisLinkURL.substring(0, 1) === '/') ? 'https://discussion.mit.edu' + thisLinkURL : location.href + thisLinkURL;
 				}
 				// chrome.tabs.create({url: thisLinkURL});
 				// opens tab next to current, instead of at end of tab bar
@@ -175,7 +179,7 @@
 				var focus = (request.button === true) ? 'foreground' : 'background';
 				thisLinkURL = request.linkURL;
 				if (thisLinkURL.toLowerCase().substring(0, 4) !== 'http') {
-					thisLinkURL = (thisLinkURL.substring(0, 1) === '/') ? 'http://www.reddit.com' + thisLinkURL : location.href + thisLinkURL;
+				    thisLinkURL = (thisLinkURL.substring(0, 1) === '/') ? 'https://discussion.mit.edu' + thisLinkURL : location.href + thisLinkURL;
 				}
 				linkTab = safari.application.activeBrowserWindow.openTab(focus);
 				linkTab.url = thisLinkURL;

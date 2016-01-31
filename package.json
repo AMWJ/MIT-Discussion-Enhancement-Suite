@@ -1,13 +1,13 @@
 {
-  "title": "Reddit Enhancement Suite",
-  "name": "reddit-enhancement-suite",
-  "version": "4.7.0",
-  "description": "A suite of modules that enhance your Reddit browsing experience",
+  "title": "MIT Discussion Enhancement Suite",
+  "name": "mit-discussion-enhancement-suite",
+  "version": "0.1.0",
+  "description": "A suite of modules that enhance your MIT Discussion browsing experience: a modification of RES.",
   "private": true,
-  "homepage": "http://redditenhancementsuite.com/",
+  "homepage": "https://github.com/AMWJ/Reddit-Enhancement-Suite/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/honestbleeps/Reddit-Enhancement-Suite.git"
+    "url": "https://github.com/AMWJ/Reddit-Enhancement-Suite.git"
   },
   "devDependencies": {
     "babel-core": "^6.3.17",
