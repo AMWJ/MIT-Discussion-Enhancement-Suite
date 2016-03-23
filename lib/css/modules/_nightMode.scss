@@ -79,8 +79,9 @@
 		color: #eee !important;
 	}
 
-	.sidecontentbox .content {
-		border-color: rgba(234, 234, 234, .1);
+	.side .sidecontentbox, .sidecontentbox .content {
+		border: 0px black solid;
+        background-color:transparent;
 	}
 
 	.RESUserTagImage::after {
@@ -154,6 +155,14 @@
 			padding: 5px;
 		}
 	}
+    .comments-page .commentarea {
+        background-color: hsl(0, 0%, 15%);
+        border: 1px hsl(0, 0%, 15%) solid;
+    }
+
+    .comments-page .commentarea .menuarea {
+        background-color: hsl(0, 0%, 15%);
+    }
 
 	.new-comment .usertext-body {
 		border-color: rgb(36, 43, 63);
@@ -313,6 +322,11 @@
 		background-color: #393939;
 	}
 
+    .side > .spacer:last-of-type {
+        border : 0px black solid;
+        background-color : transparent;
+    }
+
 	.commentbody.border {
 		background-color: #369;
 	}
@@ -394,6 +408,17 @@
 	#BigEditor .markdownEditor .RESMacroDropdownList a {
 		color: gray;
 	}
+    #siteTable .link{
+        background-color : transparent;
+    }
+    body>.content .link a.title
+    {
+        color:lightcoral;
+    }
+    body>.content .link a.title:visited
+    {
+        color:darkred;
+    }
 
 	.markhelp.md tr td {
 		background-color: #36c;
@@ -490,8 +515,8 @@
 	}
 
 	.login-form,
-	.login-form-side .submit,
-	#header-bottom-right,
+	.login-form-side .submit,   
+	#header-bottom-right, #header #header-bottom-left,
 	#srList,
 	.dropdown.lightdrop .drop-choices {
 		background-color: hsl(0, 0%, 20%);
