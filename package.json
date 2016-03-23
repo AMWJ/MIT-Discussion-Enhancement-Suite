@@ -4,10 +4,10 @@
   "version": "0.1.0",
   "description": "A suite of modules that enhance your MIT Discussion browsing experience: a modification of RES.",
   "private": true,
-  "homepage": "https://github.com/AMWJ/Reddit-Enhancement-Suite/",
+  "homepage": "https://github.com/AMWJ/MIT-Discussion-Enhancement-Suite/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/AMWJ/Reddit-Enhancement-Suite.git"
+    "url": "https://github.com/AMWJ/MIT-Discussion-Enhancement-Suite.git"
   },
   "devDependencies": {
     "babel-core": "^6.3.17",

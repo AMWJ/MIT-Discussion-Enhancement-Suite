@@ -7,7 +7,7 @@
 	"background": {
 		"scripts": ["background.js"]
 	},
-	"homepage_url": "https://github.com/AMWJ/Reddit-Enhancement-Suite",
+	"homepage_url": "https://github.com/AMWJ/MIT-Discussion-Enhancement-Suite",
 	"options_page": "options.html",
 	"content_scripts": [
 		{

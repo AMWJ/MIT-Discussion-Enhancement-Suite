@@ -7,7 +7,7 @@
 	<key>Builder Version</key>
 	<string>0.1.0.0</string>
 	<key>CFBundleDisplayName</key>
-	<string>Reddit Enhancement Suite</string>
+	<string>MIT Discussion Enhancement Suite</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.arielj.mitdiscussionenhancementsuite</string>
 	<key>CFBundleInfoDictionaryVersion</key>
@@ -158,7 +158,7 @@
 		</dict>
 	</dict>
 	<key>Description</key>
-	<string>Reddit Enhancement Suite is a collection of tools to enhance your Reddit browsing experience</string>
+	<string>A suite of tools to enhance MIT Discussion: A blatant rip-off of RES.</string>
 	<key>DeveloperIdentifier</key>
 	<string>63DT2C85Z6</string>
 	<key>ExtensionInfoDictionaryVersion</key>
@@ -188,9 +188,7 @@
 			<string>Some</string>
 		</dict>
 	</dict>
-	<key>Update Manifest URL</key>
-	<string>http://redditenhancementsuite.com/update-safari.plist</string>
 	<key>Website</key>
-	<string>https://github.com/AMWJ/Reddit-Enhancement-Suite/</string>
+	<string>https://github.com/AMWJ/MIT-Discussion-Enhancement-Suite/</string>
 </dict>
 </plist>
